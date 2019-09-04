@@ -23,9 +23,16 @@ function SideNavPage() {
             <NavIcon>
                 <i className="" style={{ fontSize: '1.75em' }} />
             </NavIcon>
-            <NavText>
+            <NavText className="">
                 Alejandra de los Santos
-                <span>Developer Expert</span>
+            </NavText>
+        </NavItem>
+        <NavItem eventKey="home">
+            <NavIcon>
+                <i className="" style={{ fontSize: '1.75em' }} />
+            </NavIcon>
+            <NavText className="">
+                Developer Expert
             </NavText>
         </NavItem>
         <NavItem eventKey="charts">

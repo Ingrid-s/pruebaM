@@ -29,7 +29,6 @@
   bottom: 0;
   left: 0;
   z-index: 1006;
-  min-width: 64px;
   background: #233239 !important;
   transition: min-width 0.15s;
 }
@@ -76,6 +75,66 @@
 }
 .bell {
   padding: 0 5px;
+}
+
+.header__directory{
+  display: flex;
+  margin-left: 250px;
+  align-items: center;
+  height: 60px;
+}
+.header__directory__title{
+padding-right: 20px;
+}
+.header__directory__filters{
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    border-top: 1px solid #0000ff73;
+    align-items: center;
+}
+.header__directory__filters--left-container {
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    align-items: center;
+}
+.order--By{
+  color: blue;
+}
+.order--By:hover{
+  color: purple;
+}
+.second{
+  border-left: 1px solid blue;
+  padding: 0 5px;
+  padding: 0 5px;
+
+}
+#root > div > div:nth-child(3) > nav{
+    padding: 6px;
+    background: #4449c333;
+    height: 50px;
+}
+.header__directory__filters--alphabet{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 230px;
+}
+.alphabet__button {
+  font-size: 10px;
+  color: gray;
+  border: none;
+  background: transparent;
+}
+.alphabet__button:hover {
+  font-size: 10px;
+  color: blue;
+}
+.fas .fa-star {
+  color: gray;
 }
 
 @keyframes App-logo-spin {
