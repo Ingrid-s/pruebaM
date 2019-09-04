@@ -37,19 +37,19 @@ class List extends Component  {
         </div>
       </div>
       <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-end">
-          <li class="page-item">
-            <a class="page-link" href="#">
+        <ul className="pagination justify-content-end">
+          <li className="page-item">
+            <a className="page-link" href="#">
               1-10 de 230
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
+          <li className="page-item">
+            <a className="page-link" href="#">
               +
             </a>
           </li>
-          <li class="page-item">
-            <a class="page-link" href="#">
+          <li className="page-item">
+            <a className="page-link" href="#">
               -
             </a>
           </li>
@@ -62,19 +62,96 @@ class List extends Component  {
       </div>
       
       <div>
-        <div class="row no-gutters">
-            <div class="col-md-4">
-            
-            <img src={logo} class="card-img" alt=""/>
+      <div className="row no-gutters">
+            <div className="col-md-2 sm1 offset-md-2 offset-ms-1">
+              <img src={logo} className="card-img" alt=""/>
             </div>
-            <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div className="col-md-6">
+              <div className="card-body">
+                <div className="card-body__contact">
+                  <h5 className="card-title">Círculo de crédito S.A. de C.V.</h5>
+                  <p className="card-text">Alejandra de los Santos Belanga.</p>
+                </div>
+                <div>
+                  <p>Fecha de Registro</p>
+                  <strong>24 Ene</strong>
+                </div>
+                <div>
+                  <p><strong>150</strong></p>
+                  <span>usuarios</span>
+                </div>
+                <div>
+                  <p><strong>200</strong></p>
+                  <span>publicaciones</span>
+                </div>
+                <div>
+                  <p><strong>Ilimitado</strong></p>
+                  <span>créditos</span>
+                </div>
+                  
+              </div>
             </div>
+          </div>
+          <div className="row no-gutters">
+            <div className="col-md-2 sm1 offset-md-2 offset-ms-1">
+              <img src={logo} className="card-img" alt=""/>
             </div>
+            <div className="col-md-6">
+              <div className="card-body">
+                <div className="card-body__contact">
+                  <h5 className="card-title">Círculo de crédito S.A. de C.V.</h5>
+                  <p className="card-text">Alejandra de los Santos Belanga.</p>
+                </div>
+                <div>
+                  <p>Fecha de Registro</p>
+                  <strong>24 Ene</strong>
+                </div>
+                <div>
+                  <p><strong>150</strong></p>
+                  <span>usuarios</span>
+                </div>
+                <div>
+                  <p><strong>200</strong></p>
+                  <span>publicaciones</span>
+                </div>
+                <div>
+                  <p><strong>Ilimitado</strong></p>
+                  <span>créditos</span>
+                </div>
+                  
+              </div>
             </div>
+          </div>
+          <div className="row no-gutters">
+            <div className="col-md-2 sm1 offset-md-2 offset-ms-1">
+              <img src={logo} className="card-img" alt=""/>
+            </div>
+            <div className="col-md-6">
+              <div className="card-body">
+                <div className="card-body__contact">
+                  <h5 className="card-title">Círculo de crédito S.A. de C.V.</h5>
+                  <p className="card-text">Alejandra de los Santos Belanga.</p>
+                </div>
+                <div>
+                  <p>Fecha de Registro</p>
+                  <strong>24 Ene</strong>
+                </div>
+                <div>
+                  <p><strong>150</strong></p>
+                  <span>usuarios</span>
+                </div>
+                <div>
+                  <p><strong>200</strong></p>
+                  <span>publicaciones</span>
+                </div>
+                <div>
+                  <p><strong>Ilimitado</strong></p>
+                  <span>créditos</span>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

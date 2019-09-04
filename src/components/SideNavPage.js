@@ -1,6 +1,7 @@
 import React from 'react';
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
+import avatar from "./images/avatar.png";
 
 
 function SideNavPage() {
@@ -23,7 +24,9 @@ function SideNavPage() {
             <NavIcon>
                 <i className="" style={{ fontSize: '1.75em' }} />
             </NavIcon>
+            
             <NavText className="">
+            <img src={avatar} className="avatar" alt="avatar"/>
                 Alejandra de los Santos
             </NavText>
         </NavItem>

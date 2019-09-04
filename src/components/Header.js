@@ -3,19 +3,19 @@ import React from 'react';
 function Header() {
   return (
     <div>
-     <div class="gradient">
-        <div class="gradient__menu">
-                <div class="dropdown">
-                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-cog icon"></i>
+     <div className="gradient">
+        <div className="gradient__menu">
+                <div className="dropdown">
+                        <button className="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i className="fas fa-cog icon"></i>
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <button class="dropdown-item" type="button">Action</button>
-                          <button class="dropdown-item" type="button">Another action</button>
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button className="dropdown-item" type="button">Action</button>
+                          <button className="dropdown-item" type="button">Another action</button>
                         </div>
                       </div>
-                    <div class="gradient__icon">
-                        <i class="far fa-bell bell"></i>
+                    <div className="gradient__icon">
+                        <i className="far fa-bell bell"></i>
                     </div>
         </div>
         
